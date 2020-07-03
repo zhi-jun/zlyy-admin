@@ -1,0 +1,16 @@
+E:\iflytek\zlyy-admin\src\server\NcpPdr\bin\Debug\netcoreapp3.1\Admin.deps.json
+E:\iflytek\zlyy-admin\src\server\NcpPdr\bin\Debug\netcoreapp3.1\Admin.dll
+E:\iflytek\zlyy-admin\src\server\NcpPdr\bin\Debug\netcoreapp3.1\Admin.pdb
+E:\iflytek\zlyy-admin\src\server\NcpPdr\obj\Debug\netcoreapp3.1\Admin.AssemblyInfoInputs.cache
+E:\iflytek\zlyy-admin\src\server\NcpPdr\obj\Debug\netcoreapp3.1\Admin.AssemblyInfo.cs
+E:\iflytek\zlyy-admin\src\server\NcpPdr\obj\Debug\netcoreapp3.1\Admin.csproj.CoreCompileInputs.cache
+E:\iflytek\zlyy-admin\src\server\NcpPdr\obj\Debug\netcoreapp3.1\Admin.dll
+E:\iflytek\zlyy-admin\src\server\NcpPdr\obj\Debug\netcoreapp3.1\Admin.pdb
+E:\iflytek\zlyy-admin\src\server\Admin\bin\Debug\netcoreapp3.1\Admin.deps.json
+E:\iflytek\zlyy-admin\src\server\Admin\bin\Debug\netcoreapp3.1\Admin.dll
+E:\iflytek\zlyy-admin\src\server\Admin\bin\Debug\netcoreapp3.1\Admin.pdb
+E:\iflytek\zlyy-admin\src\server\Admin\obj\Debug\netcoreapp3.1\Admin.AssemblyInfoInputs.cache
+E:\iflytek\zlyy-admin\src\server\Admin\obj\Debug\netcoreapp3.1\Admin.AssemblyInfo.cs
+E:\iflytek\zlyy-admin\src\server\Admin\obj\Debug\netcoreapp3.1\Admin.csproj.CoreCompileInputs.cache
+E:\iflytek\zlyy-admin\src\server\Admin\obj\Debug\netcoreapp3.1\Admin.dll
+E:\iflytek\zlyy-admin\src\server\Admin\obj\Debug\netcoreapp3.1\Admin.pdb

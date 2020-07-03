@@ -1,0 +1,19 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/src/server/.vs/NcpPdr
+/src/server/NcpPdr/bin/Debug/netcoreapp3.1
+/src/server/NcpPdr.Api/bin/Debug/netcoreapp3.1
+/src/server/NcpPdr.Application/bin/Debug/netcoreapp3.1
+/src/server/NcpPdr.Application/obj
+/src/server/NcpPdr.Core/bin/Debug/netcoreapp3.1
+/src/server/NcpPdr.Core/obj
+/src/server/NcpPdr.EntityFrameworkCore/bin/Debug/netcoreapp3.1
+/src/server/NcpPdr.EntityFrameworkCore/obj
+/src/server/NcpPdr.Migrator/bin/Debug/netcoreapp3.1
+/src/server/NcpPdr.Migrator/obj
+/src/server/NcpPdr.Api/obj
+/src/server/NcpPdr/obj
+/src/server/NcpPdr.Web/bin
+/src/server/NcpPdr.Web/obj

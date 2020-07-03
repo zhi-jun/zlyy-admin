@@ -1,0 +1,12 @@
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\obj\Debug\netcoreapp3.1\ZLYY.Web.AssemblyInfoInputs.cache
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\obj\Debug\netcoreapp3.1\ZLYY.Web.AssemblyInfo.cs
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\obj\Debug\netcoreapp3.1\ZLYY.Web.csproj.CoreCompileInputs.cache
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\bin\Debug\netcoreapp3.1\ZLYY.Web.deps.json
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\bin\Debug\netcoreapp3.1\ZLYY.Web.dll
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\bin\Debug\netcoreapp3.1\ZLYY.Web.pdb
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\bin\Debug\netcoreapp3.1\ZLYY.dll
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\bin\Debug\netcoreapp3.1\ZLYY.pdb
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\obj\Debug\netcoreapp3.1\ZLYY.Web.csprojAssemblyReference.cache
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\obj\Debug\netcoreapp3.1\ZLYY.Web.csproj.CopyComplete
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\obj\Debug\netcoreapp3.1\ZLYY.Web.dll
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY.Web\obj\Debug\netcoreapp3.1\ZLYY.Web.pdb

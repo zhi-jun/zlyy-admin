@@ -1,0 +1,8 @@
+﻿安装 EF Core 命令列工具: dotnet tool install --global dotnet-ef
+切换目录: cd .\Admin\Admin.Migrator
+
+1.增加迁移 dotnet ef migrations add <name>
+2.删除迁移 dotnet ef migrations remove
+3.更新数据库 dotnet ef database update
+4.生成脚本 dotnet ef migrations script
+5.还原数据库版本 dotnet ef database update <name>

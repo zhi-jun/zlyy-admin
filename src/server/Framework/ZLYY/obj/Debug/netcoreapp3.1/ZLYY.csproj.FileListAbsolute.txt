@@ -1,0 +1,8 @@
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY\obj\Debug\netcoreapp3.1\ZLYY.AssemblyInfoInputs.cache
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY\obj\Debug\netcoreapp3.1\ZLYY.AssemblyInfo.cs
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY\obj\Debug\netcoreapp3.1\ZLYY.csproj.CoreCompileInputs.cache
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY\bin\Debug\netcoreapp3.1\ZLYY.deps.json
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY\bin\Debug\netcoreapp3.1\ZLYY.dll
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY\bin\Debug\netcoreapp3.1\ZLYY.pdb
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY\obj\Debug\netcoreapp3.1\ZLYY.dll
+E:\iflytek\zlyy-admin\src\server\Framework\ZLYY\obj\Debug\netcoreapp3.1\ZLYY.pdb

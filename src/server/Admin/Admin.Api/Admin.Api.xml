@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Admin.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Admin.Api.Controllers.UserController">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.#ctor(Admin.Application.Application.UserService.IUserService,Admin.Api.Core.ILoginInfo)">
+            <summary>
+            ctor
+            </summary>
+            <param name="userService"></param>
+            <param name="loginInfo"></param>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.Query(Admin.Application.UserService.ViewModels.UserQueryModel)">
+            <summary>
+            查询
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.Add(Admin.Application.UserService.ViewModels.UserAddModel)">
+            <summary>
+            添加
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.Update(Admin.Application.UserService.ViewModels.UserUpdateModel)">
+            <summary>
+            更新
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.Delete(System.Guid)">
+            <summary>
+            删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.BindRole(Admin.Application.UserService.ViewModels.UserRoleBindModel)">
+            <summary>
+            绑定角色
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.UpdatePassword(Admin.Application.UserService.ViewModels.UpdatePasswordModel)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.ResetPassword(System.Guid)">
+            <summary>
+            重置密码
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.UserController.Active(System.Guid)">
+            <summary>
+            激活用户
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Admin.Api.Core.CommonAttribute">
+            <summary>
+            通用权限(只要登录即可访问，不需要授权)
+            </summary>
+        </member>
+        <member name="T:Admin.Api.Core.ControllerAbstract">
+            <summary>
+            控制器抽象
+            </summary>
+        </member>
+        <member name="T:Admin.Api.Core.IAccountPermissionResolver">
+            <summary>
+            用户权限解析接口
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Core.IAccountPermissionResolver.Resolve(System.Guid,ZLYY.Framework.Authentication.Platform)">
+            <summary>
+            解析
+            </summary>
+            <param name="accountId">用户编号</param>
+            <param name="platform">平台</param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Core.IAccountPermissionResolver.ResolvePages(System.Guid)">
+            <summary>
+            解析页面编码列表
+            </summary>
+            <param name="accountId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Core.IAccountPermissionResolver.ResolveButtons(System.Guid)">
+            <summary>
+            解析按钮编码列表
+            </summary>
+            <param name="accountId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Admin.Api.Core.ILoginInfo">
+            <summary>
+            登录信息
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.TenantId">
+            <summary>
+            租户编号
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.UserId">
+            <summary>
+            用户编号
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.UserType">
+            <summary>
+            用户类型
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.Platform">
+            <summary>
+            平台
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.IP">
+            <summary>
+            获取当前用户IP(包含IPv和IPv6)
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.IPv4">
+            <summary>
+            获取当前用户IPv4
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.IPv6">
+            <summary>
+            获取当前用户IPv6
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.LoginTime">
+            <summary>
+            登录时间戳
+            </summary>
+        </member>
+        <member name="P:Admin.Api.Core.ILoginInfo.UserAgent">
+            <summary>
+            获取当前用户请求的User-Agent
+            </summary>
+        </member>
+        <member name="T:Admin.Api.Core.IPermissionValidateHandler">
+            <summary>
+            权限验证处理接口
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Core.IPermissionValidateHandler.Validate(System.Collections.Generic.IDictionary{System.String,System.String},System.Net.Http.HttpMethod)">
+            <summary>
+            验证
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Admin.Api.Core.PermissionValidateAttribute">
+            <summary>
+            权限验证
+            </summary>
+        </member>
+        <member name="T:Admin.Api.Program">
+            <summary>
+            MainProgram
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Program.Main(System.String[])">
+            <summary>
+            Main
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Admin.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            CreateBuilder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Admin.Api.Startup">
+            <summary>
+            Setup
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Admin.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+             This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:Admin.Api.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure Autofac container
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>
